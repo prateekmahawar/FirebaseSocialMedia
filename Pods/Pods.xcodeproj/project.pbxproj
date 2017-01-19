@@ -680,19 +680,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F6F8766C91D0C2A5DA4BA7D44AAEB36</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7308D2FC1BD36C2B49B0993184C6F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>0F9AB2A7053B42A3554C310F9A378C25</key>
 		<dict>
 			<key>fileRef</key>
@@ -2306,6 +2293,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>3547563394F3120655B3E6D4EA609FDE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FirebaseCore.framework</string>
+			<key>path</key>
+			<string>Frameworks/FirebaseCore.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>35883DF41753608D2EAB6EF86DB4002E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3846,6 +3846,19 @@
 			<string>BFTask.h</string>
 			<key>path</key>
 			<string>Bolts/Common/BFTask.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>605B149B04FF209A9BA3D61D5A22A262</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3547563394F3120655B3E6D4EA609FDE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -9200,19 +9213,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>E7308D2FC1BD36C2B49B0993184C6F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FirebaseCore.framework</string>
-			<key>path</key>
-			<string>Frameworks/frameworks/FirebaseCore.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E733FDAEE64B8AFA6D5BA0B565D60166</key>
 		<dict>
 			<key>fileRef</key>
@@ -9787,7 +9787,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>0F6F8766C91D0C2A5DA4BA7D44AAEB36</string>
+				<string>605B149B04FF209A9BA3D61D5A22A262</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
