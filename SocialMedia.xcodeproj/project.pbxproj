@@ -139,8 +139,8 @@
 		C7A86DF61E2BABA30007CEE7 /* SocialMedia */ = {
 			isa = PBXGroup;
 			children = (
-				C771C4CE1E34BF80008F5D3D /* Services */,
 				C7819E301E2FF8550033FD79 /* SocialMedia.entitlements */,
+				C771C4CE1E34BF80008F5D3D /* Services */,
 				C7E683841E2D270200D90678 /* Util */,
 				C76BE46B1E2BAE860031CDE4 /* Model */,
 				C76BE46A1E2BAE7F0031CDE4 /* View */,
