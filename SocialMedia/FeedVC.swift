@@ -54,8 +54,12 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let post = posts[indexPath.row]
-        print("FeedVC: \(post.caption)")
-        return tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath) as! PostCellTVC
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath) as? PostCellTVC {
+            cell.configureCell(post: post)
+            return cell
+        } else {
+            return PostCellTVC()
+        }
         
     }
 
