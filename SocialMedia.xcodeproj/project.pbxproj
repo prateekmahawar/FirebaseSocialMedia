@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D4C6750A9052FEAD754952F /* Pods_SocialMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC0EFF21744BE8627AFD222 /* Pods_SocialMedia.framework */; };
+		C71275EE1E361AD600D588D3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71275ED1E361AD600D588D3 /* Post.swift */; };
 		C72BDBCF1E2BABDE00C161F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C72BDBCE1E2BABDE00C161F6 /* GoogleService-Info.plist */; };
 		C7461F8B1E33B1260085A36F /* PostCellTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7461F8A1E33B1260085A36F /* PostCellTVC.swift */; };
 		C771C4D01E34BF9A008F5D3D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771C4CF1E34BF9A008F5D3D /* DataService.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		0AC0EFF21744BE8627AFD222 /* Pods_SocialMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F65F9CFF390668D3DA1654B /* Pods-SocialMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMedia/Pods-SocialMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		C71275ED1E361AD600D588D3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C72BDBCE1E2BABDE00C161F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C7461F8A1E33B1260085A36F /* PostCellTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCellTVC.swift; sourceTree = "<group>"; };
 		C771C4CF1E34BF9A008F5D3D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		C76BE46B1E2BAE860031CDE4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C71275ED1E361AD600D588D3 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C3BFEC1E32751600D0CA5E /* CircleView.swift in Sources */,
+				C71275EE1E361AD600D588D3 /* Post.swift in Sources */,
 				C7461F8B1E33B1260085A36F /* PostCellTVC.swift in Sources */,
 				C7E6838A1E2D2AA700D90678 /* FancyField.swift in Sources */,
 				C7A86DFA1E2BABA30007CEE7 /* SignInVC.swift in Sources */,
