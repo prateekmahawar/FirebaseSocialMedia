@@ -20,7 +20,11 @@ class Post {
     }
     
     var imageUrl: String {
+        if _imageUrl != nil {
         return _imageUrl
+        } else {
+            return "gs://socialmediatest-1fee7.appspot.com/post-pics/chest-1.jpg"
+        }
     }
     
     var likes: Int {
@@ -44,7 +48,7 @@ class Post {
             self._caption = caption
         }
         
-        if let imageUrl = postData["imageUrl"] as? String{
+        if let imageUrl = postData["imageurl"] as? String{
             self._imageUrl = imageUrl
         }
         
